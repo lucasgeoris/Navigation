@@ -7,7 +7,7 @@ const Stack = createNativeStackNavigator();
 export default function TabNavigator (){
     return (
       <Stack.Navigator
-        initialRouteName="Tabs/A"
+        initialRouteName="A"
         screenOptions={{
           headerShown: false,
         }}>
