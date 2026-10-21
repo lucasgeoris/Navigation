@@ -1,5 +1,5 @@
-import A from './screens/A';
-import B from './screens/B';
+import A from '../screens/A';
+import B from '../screens/B';
 
 import { createNativeStackNavigator } from '@react-navigation/native-stack';
 const Stack = createNativeStackNavigator();
