@@ -14,7 +14,7 @@ export default function App() {
   return (
     <NavigationContainer>
       <Tab.Navigator initialRouteName="Tabs" screenOptions={{ headerShown: false }}>
-        <Tab.Screen name="A" component={TabNavigator} />
+        <Tab.Screen name="Tabs" component={TabNavigator} />
         <Tab.Screen name="Root" component={RootNavigator} />
       </Tab.Navigator>
     </NavigationContainer>
